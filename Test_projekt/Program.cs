@@ -13,8 +13,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-// Daniel was here welecome
-// Daniel was here and Therese was here 
+// Daniel was here welcome
+// Daniel was here and Therese was here
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
