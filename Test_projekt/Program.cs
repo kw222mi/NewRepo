@@ -11,10 +11,9 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+	app.MapOpenApi();
 }
-// Daniel was here welcome
-// Daniel was here and Therese was here
+// deleted commented-out code for clarity ^^
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -23,20 +22,5 @@ app.MapControllers();
 
 app.Run();
 
-<<<<<<< HEAD
 //Hello from Dana
 // Hello from Louai
-=======
-
-
-
-
-
-
-
-
-
-
-
-// Daniel was here too
->>>>>>> test
