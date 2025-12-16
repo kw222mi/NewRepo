@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 // Daniel was here welecome
-// Daniel was here and Therese was here 
+// Daniel was here and Therese was here
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -23,4 +23,5 @@ app.MapControllers();
 
 app.Run();
 
-//Hello from Dana
+//Hello from Dana om master branch
+//Hello from Dana on feature branch
