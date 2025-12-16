@@ -15,6 +15,8 @@ if (app.Environment.IsDevelopment())
 }
 // Daniel was here welecome
 // Daniel was here and Therese was here 
+
+// This is from my own branch!
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
